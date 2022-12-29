@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/leal/.nvm/versions/node/v16.16.0/bin/node /opt/homebrew/bin/yarn add fastify fastify-zod zod zod-to-json-schema fastify-jwt fastify-swag @prisma/client
+
+PATH: 
+  /Users/leal/.nvm/versions/node/v16.16.0/bin:/Users/leal/.zinit/polaris/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/leal/FlutterDev/flutter/bin:/Users/leal/Library/Android/sdk/emulator:/Users/leal/Library/Android/sdk/tools:/Users/leal/Library/Android/sdk/tools/bin:/Users/leal/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.16.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/fastify-swag: Not found
+      at Request.params.callback [as _callback] (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:67029:18)
+      at Request.self.callback (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:140883:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "fastify-study",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
